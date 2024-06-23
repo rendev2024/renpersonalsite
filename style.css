@@ -1,0 +1,186 @@
+body{
+  margin: auto;
+}
+/* Header **/
+header{
+  background: #008000;
+  color:#ffffff;  
+  padding-top:30px;
+  min-height:70px;
+  border-bottom:#ff9900 3px solid;
+}
+header a{
+  color:#ffffff;
+  text-decoration:none;
+  text-transform: uppercase;
+  font-size:16px;
+  margin: 20px;  
+}
+header li{
+  float:left;
+  display:inline;
+  padding: 15px;
+  font-family: serif;
+}
+
+header #branding{
+  float:left;
+}
+
+header #branding h1{
+  margin: 0;
+  font-family: serif;
+  letter-spacing: 3px;
+}
+
+header nav{
+  float:right;
+  margin-top: 10px;
+}
+
+header .highlight, header .current a{
+  color: #ff9900;
+  font-size: 30pt;
+  font-family: 'Times New Roman', serif;c;
+}
+header a:hover{
+  color:#cccccc;
+  font-weight:bold;
+}
+/* Showcase */
+#showcase{
+  min-height:600px;
+  background:url('com.jpeg') no-repeat;
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+}
+.Login{
+  margin: auto;
+  padding: 20px;
+  opacity: 0.5;
+	width: 400px;
+	display: center;	
+	border-radius: 20px;
+	gap: 20px;
+	box-shadow: 0 25px 50px rgba(0, 0, 0, 1.5);
+}
+.Login h2{
+	line-height: 1em;
+	transition: 0.5s;
+	color: white;
+	margin: 0px;
+	padding: 10px;
+	font-size: 25pt;
+	font-family: serif;
+	letter-spacing: 2px;
+}
+.Login .inputbox input{
+	position: relative;
+	width: 50%;
+	padding: 10px 15px;
+	outline: none;
+	border: 2px solid #555;
+	font-size: 1em;
+	color: #333;
+	border-radius: 1px;
+}
+.Login .inputbox input#btn{
+	background: #f5f5f5;
+	color: #333;
+	transition: 0.5s;
+	font-weight: bold;
+	font-size: 10pt;
+	cursor: pointer;
+	letter-spacing: 2px;
+	border-radius: 10px;
+	padding: 2px;
+	height: 30px;
+	font-family: serif;
+	width: 70px;
+	margin: 20px;
+}
+.help-text{
+  color: white;
+}
+
+#newsletter form{
+  height: 50px;
+  width: 50px;
+}
+
+#newsletter input[type="email"]{
+  padding: 10px;
+  font-size: 15pt;
+}  
+ #newsletter button, .quote button{
+  padding: 10px;
+  font-size: 15pt;
+  font-family: Monospace;
+  }
+/* Boxes */
+#boxes{
+  margin: auto;
+}
+
+#boxes .box{
+  float: left;
+  text-align: center;  
+  width:30%;
+  padding: 15px;
+}
+#boxes .box img{
+  width:90px;
+}
+p{
+  font-family: Sans-Serif;
+  color: white;
+}
+h2{
+    padding: 75px;
+    float: center;
+    margin: auto;
+    font-size: 30pt;
+    color: white;
+    font-family: sans;
+    font-style: italic;
+}
+h1{
+    color: #ff9900;
+    font-size: 35pt;
+    padding: 5px;
+    margin: auto;
+}
+h4{
+    text-align: center;
+    font-size: 30px;
+    font-style: italic;
+    font-weight: bold;
+    margin: auto;
+}
+i{
+    color: white;
+    padding: 20px;
+    border-bottom: 2px solid #008000;
+    transform: translateY(50px);
+    border-radius: 10px;
+    margin: auo;
+    transition: .5s;
+    transform: scale(1) translateY(0);
+}
+.box{
+    background: #008000;
+    min-height: 290px;
+    margin: 1px;    
+    border-radius: 5px;
+}
+h5{
+    display: center;
+    text-align: center;
+    background: #008000;
+    font-size: 12pt;
+    font-family: arial;
+    font-style: italic;
+    color: white;
+    letter-spacing: 5px;
+}
